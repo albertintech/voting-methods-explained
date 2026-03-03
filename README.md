@@ -26,4 +26,4 @@ This site is built with [mdBook](https://rust-lang.github.io/mdBook/) and deploy
 
 ## License
 
-Content is copyright Emoji Explainers. All rights reserved.
+Content is copyright of Albert Ramos. All rights reserved.
