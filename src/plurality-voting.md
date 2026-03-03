@@ -23,7 +23,7 @@ Understanding its structure is essential before evaluating alternatives.
 
 ## Section 1: How Plurality Voting Works
 
-Plurality voting is straightforward:
+Plurality voting -- also called **First Past the Post (FPTP)** -- is straightforward:
 
 - Each voter selects **one** candidate.
 - The candidate with the most votes wins.
@@ -87,7 +87,21 @@ The categorical ballot captures the least information -- but it is also the simp
 
 Plurality voting did not become widespread by accident.
 
-It offers several administrative advantages:
+Its dominance reflects both historical circumstances and practical advantages.
+
+### Historical Roots
+
+Modern plurality voting traces largely to the English parliamentary tradition. For centuries, English constituencies elected members by a simple rule: each voter named one candidate, and the candidate with the most support won the seat.
+
+This practice took hold in an era when most contested elections involved only two serious candidates. With two candidates, plurality and majority rule produce the same result -- the candidate with the most votes necessarily has more than half. The structural tensions that arise with three or more candidates were rarely tested.
+
+As English electoral practices spread -- to colonial legislatures, to the early United States, to other parliamentary systems -- plurality came with them. It was embedded in legal frameworks, administrative procedures, and public expectations before multi-candidate elections became routine.
+
+By the time more candidates began competing regularly, plurality was already the institutional default.
+
+### Administrative Advantages
+
+The system's persistence also reflects genuine practical strengths:
 
 ### 1️⃣ Simplicity for Voters
 
