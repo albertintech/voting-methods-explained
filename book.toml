@@ -1,0 +1,12 @@
+[book]
+title = "Voting Methods Explained"
+authors = ["Albert Ramos"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/albertintech/voting-methods-explained"
+edit-url-template = "https://github.com/albertintech/voting-methods-explained/edit/main/src/{path}"
