@@ -8,5 +8,4 @@ src = "src"
 build-dir = "book"
 
 [output.html]
-git-repository-url = "https://github.com/albertintech/voting-methods-explained"
-edit-url-template = "https://github.com/albertintech/voting-methods-explained/edit/main/src/{path}"
+git-repository-url = "https://github.com/albertintech/voting-methods-explained.git"
