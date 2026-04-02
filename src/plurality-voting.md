@@ -209,6 +209,29 @@ Plurality identifies the largest group of supporters.
 
 It does not measure whether most voters accept the outcome.
 
+### The Same Election, Viewed Differently
+
+Now look at the same result from the other direction.
+
+| Outcome | Votes | Share |
+|---|---|---|
+| Voted for Alice | 40 | 40% |
+| Voted for someone other than Alice | 60 | 60% |
+
+Alice won with a plurality. But a majority voted against her. Both statements describe the same election.
+
+Sixty out of 100 voters -- a clear majority -- chose someone other than Alice. Under plurality, those 60 voters are on the losing side despite outnumbering Alice's supporters. Their preferences were divided across two candidates, but their collective opposition to Alice is real and measurable. Plurality has no mechanism to register it.
+
+> A plurality yes is a majority no.
+
+This is not a flaw unique to one election or one set of candidates. It is a structural feature of the counting rule. Whenever more than two candidates compete and no one reaches a majority, the plurality winner takes office over the objection of most voters. The system does not ask whether most voters find the outcome acceptable. It asks only who received the largest single share.
+
+```admonish question title="Reflection Question"
+All other things being equal, if you had a choice to live in a society that operated under consensus, majority, or plurality standards to determine group decision-making, which would you choose? Why?
+
+Is there an "ideal" standard? A "realistic" standard? Which standards can you identify in the decision-making systems around you?
+```
+
 ---
 
 ## Section 4: Vote Splitting
@@ -270,6 +293,20 @@ Voters may ask:
 Every voting system creates some strategic landscape. The question is not whether strategy exists, but how much pressure the system places on voters to deviate from honest expression. Some systems -- as we will see later in this series -- are designed to reduce that pressure, making honest voting a stronger strategy than it is under plurality.
 
 Political parties often emerge in part as coordination mechanisms under plurality systems.
+
+### Candidate Strategy
+
+Voters are not the only actors who respond rationally to the structure of the ballot. Candidates face incentives shaped by the same rules.
+
+Under plurality, winning requires only one thing: more votes than anyone else. A candidate does not benefit from being voters' second choice. The categorical ballot provides no mechanism for expressing that preference -- and so it counts for nothing.
+
+This creates a direct incentive: **concentrate support from a loyal base rather than seek broad acceptability**.
+
+A candidate who can mobilize 40 committed supporters will defeat a candidate who is acceptable to 60 voters but the first choice of only 35. Broad tolerability has no electoral value if tolerant voters have already marked someone else's name.
+
+The rational response is **base mobilization** -- identifying and turning out the voters most likely to support you -- rather than seeking to minimize opposition. A candidate who carves out a distinct position and energizes that constituency is working with the system's logic. A candidate who tries to be broadly palatable may find that being acceptable is not enough when voters can only choose one name.
+
+While we cannot attribute all candidate and campaign behavior to the voting system, we can identify the structural incentives it puts in place.
 
 ---
 
@@ -355,8 +392,8 @@ But it can:
 
 - Elect candidates without majority support
 - Penalize similar candidates
-- Encourage strategic voting
-- Reward concentrated factions
+- Encourage strategic voting among voters
+- Incentivize base mobilization over broad acceptability among candidates
 
 These are structural consequences of the rule design.
 
