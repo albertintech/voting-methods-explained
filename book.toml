@@ -7,5 +7,9 @@ src = "src"
 [build]
 build-dir = "book"
 
+[preprocessor.admonish]
+command = "mdbook-admonish"
+
 [output.html]
 git-repository-url = "https://github.com/albertintech/voting-methods-explained.git"
+additional-css = ["./mdbook-admonish.css"]
