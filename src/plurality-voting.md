@@ -226,11 +226,11 @@ Sixty out of 100 voters -- a clear majority -- chose someone other than Alice. U
 
 This is not a flaw unique to one election or one set of candidates. It is a structural feature of the counting rule. Whenever more than two candidates compete and no one reaches a majority, the plurality winner takes office over the objection of most voters. The system does not ask whether most voters find the outcome acceptable. It asks only who received the largest single share.
 
-```admonish question title="Reflection Question"
-All other things being equal, if you had a choice to live in a society that operated under consensus, majority, or plurality standards to determine group decision-making, which would you choose? Why?
-
-Is there an "ideal" standard? A "realistic" standard? Which standards can you identify in the decision-making systems around you?
-```
+> **Reflection Question**
+>
+> All other things being equal, if you had a choice to live in a society that operated under consensus, majority, or plurality standards to determine group decision-making, which would you choose? Why?
+>
+> Is there an "ideal" standard? A "realistic" standard? Which standards can you identify in the decision-making systems around you?
 
 ---
 
