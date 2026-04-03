@@ -17,7 +17,7 @@ jobs:
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
         with:
-          mdbook-version: 'latest'
+          mdbook-version: '0.4.44'
       - name: Install mdbook-admonish
         run: |
           cargo install mdbook-admonish --locked
