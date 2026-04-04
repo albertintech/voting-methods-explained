@@ -62,6 +62,16 @@ At a basic level, a voting system performs three functions:
 2. **Process that information** according to a counting rule (tallying, elimination rounds, pairwise comparison)
 3. **Produce a winner**
 
+```mermaid
+graph LR
+    A["Collect Information<br/>(ballot design)"] --> B["Process Information<br/>(counting rule)"]
+    B --> C["Produce a Winner"]
+
+    style A fill:#4a90d9,color:#fff,stroke:#2c5f8a
+    style B fill:#f5a623,color:#fff,stroke:#c17d12
+    style C fill:#7ed321,color:#fff,stroke:#5a9a18
+```
+
 Each of these stages involves design decisions.
 
 - Should voters choose only one candidate?

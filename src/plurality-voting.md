@@ -79,6 +79,25 @@ Later in this series, we will encounter other ballot types:
 
 Each ballot type captures different information. Each enables different counting methods.
 
+```mermaid
+graph TD
+    B[Ballot Types] --> C[Categorical<br/>Choose One]
+    B --> O[Ordinal<br/>Rank Candidates]
+    B --> R[Cardinal<br/>Rate Candidates]
+
+    C --> C1["Captures: Top preference only"]
+    O --> O1["Captures: Preference order"]
+    R --> R1["Captures: Intensity of support"]
+
+    C1 --> S1["Used by: Plurality"]
+    O1 --> S2["Used by: RCV"]
+    R1 --> S3["Used by: Score, STAR"]
+
+    style C fill:#e74c3c,color:#fff
+    style O fill:#3498db,color:#fff
+    style R fill:#2ecc71,color:#fff
+```
+
 The categorical ballot captures the least information -- but it is also the simplest to cast and count.
 
 ---
