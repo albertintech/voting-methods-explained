@@ -9,3 +9,4 @@ build-dir = "book"
 
 [output.html]
 git-repository-url = "https://github.com/albertintech/voting-methods-explained.git"
+sidebar-header-nav = true
