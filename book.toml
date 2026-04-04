@@ -7,6 +7,10 @@ src = "src"
 [build]
 build-dir = "book"
 
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
 [output.html]
 git-repository-url = "https://github.com/albertintech/voting-methods-explained.git"
 sidebar-header-nav = true
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
