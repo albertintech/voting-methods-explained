@@ -162,3 +162,25 @@ From there, we will examine other single-winner systems that attempt to address 
 Each new method will emerge as a response to limitations in the previous one.
 
 And each will introduce tradeoffs of its own.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.7** (Current)
+- Added revision history footer convention adapted from APAI Document Production Standards
+- Article content unchanged from Revision 1.6
+
+**Revisions 1.0 through 1.6**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: six H2 sections covering the problem voting solves, the shift from assemblies to elections, what voting systems do (with mermaid diagram and definitions of strategic voting, pathologies, and honesty incentives), three contexts for voting, scope, and the transition to plurality voting
+-->
+
+*Revision history available in the raw file.*
+
+> [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-00-introduction.md) (opens on GitHub)
+
+---
+
+*Prepared by Albert Ramos for the Voting Methods Explained series*
