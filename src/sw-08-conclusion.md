@@ -108,6 +108,12 @@ Different systems relocate it:
 
 Strategy changes form. It does not disappear.
 
+The same is true for candidates.
+
+Each system examined in this series created a distinct structural incentive for how candidates campaign. Plurality rewards base mobilization. RCV rewards simultaneous first-choice depth and cross-coalition goodwill. Approval rewards broad palatability over narrow intensity. Score rewards cultivating genuine enthusiasm across the electorate. STAR imposes both a scoring-round threshold and a head-to-head appeal requirement in sequence.
+
+Ballot structure does not only change how voters reason. It changes what rational candidates are incentivized to do. These are two sides of the same design choice.
+
 ### 6️⃣ Condorcet as Evaluative Lens
 
 The final article introduced a benchmark:
@@ -121,6 +127,10 @@ It reminds us that:
 - Majority rule can be defined in different ways.
 - Pairwise consistency is one structural value among many.
 - Even majority-based systems must resolve cycles.
+
+The 2022 Alaska special election provides a documented illustration. The Condorcet winner of that election was eliminated in the first round of IRV counting -- his broad second-choice support invisible to a rule that counted only first-place votes in its opening step. The same three candidates contested the subsequent general election a few months later, and no Condorcet failure occurred: IRV returned the Condorcet winner. The anomaly was real; it was also rare.
+
+One further dimension that the Alaska case surfaces: the political durability of a voting system is itself a design consideration. A rare but visible failure can carry consequences disproportionate to its frequency. Burlington, Vermont repealed Ranked Choice Voting following a similar failure in 2009. Honest accounting of what a system guarantees -- and what it does not -- is not only analytically sound. It is a condition of long-term credibility.
 
 ### 7️⃣ Voting Criteria: A Framework for Evaluation
 
@@ -215,60 +225,35 @@ The number of seats available is another.
 
 ---
 
-## Preview: Multi-Winner Methods
+## Preview: Beyond Single-Winner Elections
 
 So far, the design problem has been:
 
 > How should we select one winner?
 
-Multi-winner systems change the question:
+The remainder of this series expands the design space to elections that fill multiple seats. That expansion reveals two distinct design regions, each with its own structural question.
 
-> How should representation be allocated across multiple seats?
+### Multi-Winner Methods
 
-This shift introduces new structural concepts.
+The first region uses familiar ballot formats -- choose-one, choose-many, score -- and straightforward counting rules to fill multiple seats. The question shifts from selecting an individual to distributing representation:
 
-### District Magnitude
+> How should representation be distributed when multiple seats are available?
 
-**District magnitude** refers to how many representatives are elected from a district.
+This is a different problem than the single-winner question, but it builds on familiar ground. The ballot types and counting approaches the reader already knows -- plurality tallies, score aggregation, automatic runoffs -- reappear in multi-winner form. What changes is the structural consequence: when more than one candidate can win, new questions arise about whether a cohesive majority captures every seat or whether minority factions achieve representation.
 
-- Magnitude 1 → single-winner
-- Magnitude 3, 5, 10, etc. → multi-winner
+Some multi-winner methods produce fully majoritarian outcomes. Others create space for minority representation -- but only if voters and parties coordinate their behavior effectively. The structural insight is that adding seats does not automatically produce proportional outcomes.
 
-As magnitude increases, the design problem changes.
+### Proportional Representation
 
-### Majority vs Proportional Logic
+The second region addresses the limitation that multi-winner methods reveal. It asks:
 
-Single-winner systems often prioritize:
+> How should a counting rule distribute seats to reflect the distribution of voter support?
 
-- Identifying a majority-supported individual
-- Or selecting the most broadly supported candidate
+Proportional systems use counting rules specifically designed to ensure that the distribution of seats reflects the distribution of voter support -- not as a product of strategic coordination, but as a structural guarantee built into the counting process itself. These systems require conceptual tools that have no single-winner analogue: algorithms, quotas, surplus handling, and ballot reweighting. They represent a fundamentally different approach to the design problem.
 
-Multi-winner systems often introduce:
+### Two Design Regions, Not One
 
-- **Proportional representation**
-- Allocation of seats to reflect group support
-
-Instead of compressing preferences into one outcome, multi-winner systems may distribute representation across factions.
-
-### Coalition Representation
-
-In multi-winner systems:
-
-- Groups may gain seats roughly proportional to their support.
-- Representation can be shared rather than concentrated.
-- Majority and minority blocs may both hold seats.
-
-This does not eliminate tradeoffs.
-
-It changes the type of tradeoffs being considered.
-
-The design objective shifts from:
-
-> Who wins?
-
-To:
-
-> How should representation be distributed?
+Multi-winner elections and proportional representation are often conflated, but they are not the same thing. A multi-winner election can be fully majoritarian. Proportionality is a design choice -- one that requires specific counting mechanisms. The series treats these as separate design spaces because the reader who understands their distinction is better equipped to evaluate any multi-winner system.
 
 ---
 
@@ -288,13 +273,14 @@ Changing ballot format alters incentives.
 
 Changing district magnitude alters representation itself.
 
-Tradeoffs do not disappear in multi-winner systems.
+Tradeoffs do not disappear when the design space expands beyond single-winner elections.
 
 They reappear in new forms:
 
 - Simplicity vs proportionality
 - Local accountability vs coalition diversity
 - Stability vs fragmentation
+- Strategic coordination burden vs institutional guarantee
 
 Criteria may conflict differently at larger scales.
 
@@ -328,7 +314,7 @@ No single-winner system satisfies all simultaneously.
 
 Understanding this is structural literacy.
 
-As we move forward, we expand the design space.
+As we move forward, we expand the design space -- first to multi-winner elections, then to proportional representation.
 
 The question is no longer only:
 
@@ -338,8 +324,6 @@ It becomes:
 
 > How should representation itself be structured?
 
-Multi-winner systems do not solve the tradeoffs we have studied.
+The systems that follow do not solve the tradeoffs we have studied.
 
-They reconfigure them.
-
-The next phase of this series will examine how expanding the number of seats changes the nature of democratic choice -- and what new design questions emerge when representation is shared rather than singular.
+They reconfigure them -- and introduce new ones.
