@@ -6,7 +6,7 @@ A structured civic education series on voting systems across three design spaces
 
 This series examines how different voting systems collect, process, and evaluate voter preferences. It covers single-winner elections, multi-winner elections, and proportional representation.
 
-Each article builds on the previous one, moving from simple to complex voting systems. The goal of this series is to help readers develop a mental toolkit that can be used to intelligently consider voting methods, their design spaces, and real-world application.
+Each article builds on the previous one, moving from simple to complex voting systems. The goal of this series is to help readers develop a mental toolkit that can be used to intelligently consider voting methods, their design spaces, and real-world applications.
 
 ## Contents
 
