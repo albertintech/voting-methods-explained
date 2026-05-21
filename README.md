@@ -1,14 +1,16 @@
 # Voting Methods Explained
 
-A structured civic education series on single-winner voting systems.
+A structured civic education series on voting systems across three design spaces.
 
 ## About
 
-This series examines how different voting systems collect, process, and evaluate voter preferences. Each article builds on the previous one, moving from familiar systems to more expressive alternatives -- and ending with a theoretical benchmark for evaluating them all.
+This series examines how different voting systems collect, process, and evaluate voter preferences. It covers single-winner elections, multi-winner elections, and proportional representation -- three distinct design spaces, each with its own structural question.
 
-The goal is not to promote a particular reform. It is to develop the structural vocabulary needed to evaluate voting systems on their own terms.
+Each article builds on the previous one, moving from familiar systems to more complex alternatives. The goal is not to promote a particular reform. It is to develop the structural vocabulary needed to evaluate voting systems on their own terms.
 
 ## Contents
+
+### Part 1: Single-Winner Methods
 
 1. **Introduction** -- Voting and collective decision-making
 2. **Plurality Voting** -- The most common method and its structural consequences
@@ -19,6 +21,29 @@ The goal is not to promote a particular reform. It is to develop the structural 
 7. **STAR Voting** -- A hybrid of scoring and runoff logic
 8. **Condorcet as Benchmark** -- A standard for evaluating voting systems
 9. **Conclusion** -- From single-winner to multi-winner systems
+
+### Part 2: Multi-Winner Methods
+
+10. **Introduction** -- When more than one candidate wins
+11. **Bloc Voting** -- The most common multi-winner method and the sweep effect
+12. **Limited Voting** -- Fewer votes than seats
+13. **Cumulative Voting** -- Vote concentration and self-help proportionality
+14. **Single Non-Transferable Vote** -- One vote, multiple seats
+15. **Multi-Seat STAR** -- Consensus-oriented multi-winner selection
+16. **Conclusion** -- Strategy, not structure
+
+### Part 3: Proportional Representation
+
+17. **Introduction** -- When structure guarantees what strategy cannot
+18. **Algorithms and Counting** -- The tools behind proportional systems
+19. **Quotas and the Price of a Seat** -- Thresholds, surplus, and remainders
+20. **Proportional RCV: How It Works** -- Ranked-ballot proportional representation
+21. **Proportional RCV: Structural Consequences** -- Evaluation and real-world performance
+22. **Binary Ballots, Proportional Outcomes** -- Approval-based proportional methods
+23. **Cardinal Proportionality** -- Score-based proportional methods
+24. **Quota-Based Cardinal Proportionality** -- Proportional STAR
+25. **Testing Systems Without Real Elections** -- Voting simulations as an evaluative tool
+26. **Conclusion** -- Evaluating proportional systems
 
 ## Built With
 
