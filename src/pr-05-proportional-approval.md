@@ -296,7 +296,25 @@ The distinction between **excellence rules** (top-K) and **proportional rules** 
 
 The next article extends the multi-winner design space to score ballots, where voters can express not just approval or disapproval but degrees of support. The additional expressiveness of the score ballot creates new possibilities for proportional allocation -- and new strategic considerations that do not arise with binary approvals.
 
+
 ---
 
-*Prepared for the Voting Methods Explained -- Proportional Representation Series*
-*Phase 4 -- Movement 3: Proportional Approval and Proportional Score*
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: six numbered sections plus comparison table and conclusion covering the approval ballot in multi-winner elections, Multi-Winner Approval (Top-K), Proportional Approval Voting (PAV), Sequential Proportional Approval Voting (SPAV), Method of Equal Shares (MES), and proportionality without rankings or parties
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-05-proportional-approval.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
