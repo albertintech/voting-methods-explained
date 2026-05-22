@@ -254,3 +254,25 @@ Rather than proposing a new ballot structure, we will explore a benchmark for ev
 Can a voting system guarantee that the candidate who would win every one-on-one contest is selected?
 
 And what happens when preferences cycle?
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.7** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.6
+
+**Revisions 1.0 through 1.6**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: seven numbered sections covering STAR mechanics, a simple example, the design problem addressed, majority support relationship, comparison to other systems, structural consequences, and tradeoffs, plus conclusion with transition to Condorcet
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-06-star-voting.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
