@@ -321,3 +321,25 @@ But ranking is not the only way to express preference.
 In the next article, we ask a broader question:
 
 What if the ballot collected different information altogether -- not the order of preference, but the type and degree of support?
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.7** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.6
+
+**Revisions 1.0 through 1.6**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: four numbered sections covering center squeeze, monotonicity failure, ballot exhaustion, and RCV optimization properties, plus conclusion with transition to approval voting
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-03-ranked-choice-voting-consequences.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
