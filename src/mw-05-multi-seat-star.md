@@ -167,3 +167,25 @@ But the expressive ballot does not produce proportional outcomes. Multi-Seat STA
 This distinction -- between ballot expressiveness and counting logic -- is one of the most important structural insights in this Part. A more expressive ballot can change the character of the winners. Only a different counting mechanism can change whether the system produces majoritarian or proportional outcomes.
 
 The five methods examined in this Part form a spectrum. The next article synthesizes that spectrum and asks the question that has been building across every article: when is the sweep effect the right structural choice, and when does the election's goal require something the methods in this Part cannot provide?
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.1** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.0
+
+**Revision 1.0**
+- Initial publication as part of the three-section site architecture transition
+- Five numbered sections plus conclusion covering Multi-Seat STAR mechanics, what the score ballot adds, what it does not change, differentiated majoritarian outcomes, and structural properties
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/mw-05-multi-seat-star.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
