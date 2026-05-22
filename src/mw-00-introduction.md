@@ -219,3 +219,25 @@ This Part adds one evaluative tool that the previous Part did not require: **goa
 The question is no longer just who should win.
 
 It is how representation should be distributed -- and whether the system's answer matches the election's purpose.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.1** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.0
+
+**Revision 1.0**
+- Initial publication as part of the three-section site architecture transition
+- Eight descriptive H2 sections covering the single-winner assumption, district magnitude, a five-seat council example, proportionality not being automatic, candidate-centered scope, Part organization, and the evaluative frame including goal-relative evaluation
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/mw-00-introduction.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
