@@ -155,3 +155,25 @@ The real-world consequences of the sweep effect are not theoretical. Decades of 
 The methods examined in the remaining articles of this Part each modify bloc voting's structure in a different way. The first modification is the simplest: keep the counting rule identical, but give voters fewer votes than there are seats.
 
 This is limited voting.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.1** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.0
+
+**Revision 1.0**
+- Initial publication as part of the three-section site architecture transition
+- Four numbered sections plus conclusion covering bloc voting mechanics, a worked example, the sweep effect in practice, and structural properties
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/mw-01-bloc-voting.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
