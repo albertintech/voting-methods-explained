@@ -157,3 +157,25 @@ The condition matters. A group that cannot coordinate its voters cannot use the 
 The methods examined so far have modified the ballot in different ways: how many votes the voter receives (limited voting) and whether those votes can be concentrated (cumulative voting). The next article takes the simplification to its logical conclusion. What happens when each voter receives exactly one vote -- the same ballot as single-winner plurality -- but the election fills multiple seats?
 
 This is the Single Non-Transferable Vote.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.1** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.0
+
+**Revision 1.0**
+- Initial publication as part of the three-section site architecture transition
+- Four numbered sections plus conclusion covering cumulative voting mechanics, a worked example, the self-help guarantee, and structural properties
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/mw-03-cumulative-voting.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
