@@ -98,3 +98,25 @@ The question is no longer just who should win, or even how representation should
 It is whether the system itself should guarantee that the distribution of seats reflects the distribution of voter support -- or whether that outcome should depend on the strategic behavior of voters and parties.
 
 The next Part examines methods that answer: the system should guarantee it.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.1** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.0
+
+**Revision 1.0**
+- Initial publication as part of the three-section site architecture transition
+- Six descriptive H2 sections covering the multi-winner spectrum, comparison table, strategy versus structure, the prior question of election goals, what proportionality requires, and the frame revisited
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/mw-06-conclusion.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
