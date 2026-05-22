@@ -214,6 +214,25 @@ The series has now covered a progression of evaluative approaches: formal proper
 
 The reader is now equipped to evaluate any multi-winner voting method they encounter -- not just the specific methods examined in this series, but any system that might appear in a ballot measure, a legislative proposal, or a reform advocacy campaign. The Conclusion that follows synthesizes the series by design dimension: proportionality, ballot complexity, auditability, candidate incentives, and the recurring theme that no system satisfies all criteria simultaneously. That synthesis draws on everything the reader has learned -- mechanics, properties, evidence, and the tools to assess evidence critically.
 
+
 ---
 
-*Prepared for the Voting Methods Explained -- Proportional Representation Series*
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: eight numbered sections plus conclusion covering why simulations exist, what a simulation does, what simulations can reveal, what they cannot tell us, the assumptions that matter most, how to read simulation evidence, notable simulation frameworks, and simulations and the multi-winner evidence gap
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-08-voting-simulations.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
