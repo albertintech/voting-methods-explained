@@ -208,3 +208,25 @@ Second, the surplus problem -- what happens when a candidate receives more votes
 Third, the remainder problem -- what happens when votes do not divide evenly into seats. The rules for distributing seats at the margin determine whether groups near the threshold of a quota gain representation or are shut out.
 
 Together with the algorithmic framework from Foundation A, these tools form the conceptual vocabulary needed to understand how proportional systems work. The series now turns to those systems themselves.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: seven numbered sections plus conclusion covering the price of a seat, Hare quota, Droop quota, Hare versus Droop comparison, the surplus problem, the remainder problem, and transition to system articles
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-02-quotas-and-surplus.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
