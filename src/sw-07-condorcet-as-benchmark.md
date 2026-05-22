@@ -226,3 +226,25 @@ Criteria sometimes conflict. In 1951, the economist Kenneth Arrow proved that th
 Tradeoffs are unavoidable.
 
 Understanding those tradeoffs is the purpose of this series.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.7** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.6
+
+**Revisions 1.0 through 1.6**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: six numbered sections covering head-to-head majority comparisons, the Condorcet winner, the Condorcet paradox (cycles), completion methods, Condorcet as evaluative criterion, and structural comparison, plus conclusion
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-07-condorcet-as-benchmark.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
