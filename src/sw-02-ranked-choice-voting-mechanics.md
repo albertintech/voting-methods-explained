@@ -245,3 +245,25 @@ What happens when a broadly acceptable candidate lacks first-choice support?
 What happens when gaining additional support changes the elimination order?
 
 And what happens when ballots run out of ranked candidates before the final round?
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.7** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.6
+
+**Revisions 1.0 through 1.6**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: four numbered sections covering the transition from plurality to ranked ballots, RCV counting mechanics, the locked ballot model, and a five-candidate worked example, plus conclusion with transition to Part B
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-02-ranked-choice-voting-mechanics.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
