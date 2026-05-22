@@ -179,8 +179,8 @@ And each will introduce tradeoffs of its own.
 
 *Revision history available in the raw file.*
 
-> [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-00-introduction.md) (opens on GitHub)
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-00-introduction.md) (opens on GitHub -- click the ⬇ download button)
 
 ---
 
-*Prepared by Albert Ramos for the Voting Methods Explained series*
+*© 2026 Albert Ramos. All rights reserved.*
