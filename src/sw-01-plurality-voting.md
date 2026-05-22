@@ -443,3 +443,25 @@ This raises a question:
 In the next article, we examine one response:
 
 **Ranked Choice Voting**.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.7** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.6
+
+**Revisions 1.0 through 1.6**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: eight numbered sections covering plurality mechanics, historical dominance, the consensus/majority/plurality distinction, vote splitting, strategic coordination, the two-round runoff, optimization properties, and tradeoffs, plus conclusion with transition to RCV
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-01-plurality-voting.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
