@@ -135,3 +135,25 @@ Second, these algorithms span a spectrum of computational demand, from methods t
 Third, the adjustment rules within these algorithms are where the system's values operate. Whether voter influence is reduced gradually, removed entirely, or transferred to other candidates is not a technical detail but a normative choice -- one that determines what kind of proportionality the system produces.
 
 The reader does not yet need to know the specific adjustment rules of any particular system. That is the work of the system articles. What this article establishes is the framework: proportional systems are sequential, their complexity varies, and their adjustment rules encode design choices. The next Foundation article adds the mathematical tools -- quotas, surplus handling, and the remainder problem -- that those adjustment rules operate on.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: six numbered sections plus conclusion covering algorithm definition, why proportional systems need algorithms, the counting spectrum, sequential algorithms, auditability and transparency, and transition to subsequent articles
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-01-algorithms-and-counting.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
