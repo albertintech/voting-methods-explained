@@ -115,3 +115,31 @@ The goal of this Part is the same as the Parts that came before: not to determin
 The question is no longer whether representation should be distributed proportionally.
 
 It is how -- and at what cost.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.3
+
+**Revision 1.3**
+- Retitled to "When Structure Guarantees What Strategy Cannot"
+- Restructured to receive multi-winner handoff from new MW Part
+- Added "What Changed," "Why Prerequisites Come First," "Four Families" preview by ballot type with American usage anchors, and "Evaluating Systems With Thin Records" previewing voting simulations
+- Removed content moved to MW Introduction: district magnitude, sweep effect, proportionality-as-concept, candidate-centered scope
+
+**Revisions 1.0 through 1.2**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: descriptive H2 sections introducing proportional representation, its relationship to multi-winner methods, quota and surplus concepts, the four proportional method families, and Part organization
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-00-introduction.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
