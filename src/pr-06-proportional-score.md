@@ -277,7 +277,25 @@ Several concepts carry forward from this article:
 
 The next article examines Proportional STAR, which uses a counting algorithm called Allocated Score to address the same design challenge through a different proportionality mechanism. Where RRV reweights all ballots after each seat, Allocated Score removes a quota of supporters entirely, creating clean partitions between represented and unrepresented voters. The difference in mechanism produces different structural properties and different strategic considerations.
 
+
 ---
 
-*Prepared for the Voting Methods Explained -- Proportional Representation Series*
-*Phase 4 -- Movement 3: Proportional Approval and Proportional Score*
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: seven numbered sections plus comparison table and conclusion covering the transition from approval to scores, Multi-Winner Score Voting (Top-K), Reweighted Range Voting (RRV), strategic exaggeration and devolution, candidate strategy, the 101-to-102 bridge, and the formal properties gap
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-06-proportional-score.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
