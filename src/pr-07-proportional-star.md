@@ -275,6 +275,25 @@ Proportional STAR has been used in one organizational election in the United Sta
 
 The next article steps back from specific systems to examine a tool that addresses exactly this kind of uncertainty: voting simulations. When a system's empirical record is thin, simulations offer a structured way to explore how it might perform under controlled conditions. The reader will learn what simulations can and cannot tell us -- and how to evaluate simulation evidence encountered in reform advocacy.
 
+
 ---
 
-*Prepared for the Voting Methods Explained -- Proportional Representation Series*
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: five numbered sections plus conclusion covering Proportional STAR mechanics, a worked example, structural properties, strategic considerations, and candidate strategy
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-07-proportional-star.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
