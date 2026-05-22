@@ -480,3 +480,25 @@ No surplus transfer method is objectively superior. Each reflects a different ju
 The worked example demonstrated these mechanics in action: surplus flowing from a popular first choice to second and third choices, fractional ballot values accumulating across rounds, elimination filling the gaps when no candidate reaches the quota, and the gradual assembly of a multi-member result through iterated transfers.
 
 Several features of Proportional RCV's mechanics carry forward into the evaluation that follows. The complexity of the counting process raises questions about transparency and auditability. The sensitivity to the order of eliminations raises questions about path dependence and monotonicity. The dependence on ranked preferences raises questions about ballot exhaustion and strategic behavior. These are structural consequences of Proportional RCV's design -- the subject of the next article.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: eight numbered sections plus surplus transfer comparison table and conclusion covering the transition from single-winner to multi-winner RCV, quota selection, the Proportional RCV algorithm, surplus transfer methods, a worked example, exhausted ballots, American practice, and international practice
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-03-proportional-rcv-mechanics.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
