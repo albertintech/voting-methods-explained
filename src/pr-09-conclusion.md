@@ -158,6 +158,33 @@ Voting systems are tools. They encode assumptions about what information matters
 
 Understanding them is not a matter of finding the right answer. It is a matter of asking the right questions -- and knowing enough to evaluate the answers.
 
+
 ---
 
-*Prepared for the Voting Methods Explained -- Proportional Representation Part*
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.3
+
+**Revision 1.3**
+- Retitled to "Evaluating Proportional Systems"
+- Rescoped Statement of Purpose from ten-article series to eight-article Part
+- Replaced "Proportionality Spectrum" section with "How Proportional Systems Differ From Each Other" (internal variation across four proportional mechanisms)
+- Removed "The Design Choice" section (moved to MW Conclusion)
+- Converted multi-winner method references to cross-Part references
+- Retitled closing section to "The Design Space, Complete"
+
+**Revisions 1.0 through 1.2**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: descriptive H2 sections evaluating proportional systems across the proportionality spectrum, ballot complexity, auditability, candidate incentives, and the design choice between majoritarian and proportional outcomes
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-09-conclusion.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
