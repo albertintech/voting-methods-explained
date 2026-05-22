@@ -327,3 +327,25 @@ It becomes:
 The systems that follow do not solve the tradeoffs we have studied.
 
 They reconfigure them -- and introduce new ones.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.7** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.6
+
+**Revisions 1.0 through 1.6**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: five descriptive H2 sections covering lessons from single-winner systems, limits of single-winner design, preview of multi-winner and proportional methods, the broader design space, and expanding the evaluative frame
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/sw-08-conclusion.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
