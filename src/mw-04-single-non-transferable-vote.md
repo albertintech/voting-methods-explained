@@ -168,3 +168,25 @@ SNTV is the simplest multi-winner ballot possible: one vote per voter, multiple 
 The four methods examined so far -- bloc voting, limited voting, cumulative voting, and SNTV -- all use simple ballots: mark one or more candidates, distribute votes, or choose one. They form a spectrum from fully majoritarian (bloc voting) to semi-proportional (SNTV), with each step modifying how many votes the voter receives or how those votes can be distributed.
 
 The next article examines a method that departs from this family entirely. Multi-Seat STAR uses the score ballot introduced in the previous Part -- voters rate every candidate on a 0-5 scale -- and applies the two-phase STAR process (scoring round plus automatic runoff) seat by seat. The ballot collects fundamentally different information. The question is whether that information changes the structural outcome.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.1** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.0
+
+**Revision 1.0**
+- Initial publication as part of the three-section site architecture transition
+- Five numbered sections plus conclusion covering SNTV mechanics, a worked example, intra-party competition, the coordination problem, and structural properties
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/mw-04-single-non-transferable-vote.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
