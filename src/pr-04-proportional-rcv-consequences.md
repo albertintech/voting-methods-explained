@@ -278,3 +278,25 @@ The real-world record is extensive and instructive. Ireland demonstrates long-te
 Proportional RCV occupies a distinctive position in the multi-winner design space. It is the only widely used proportional system that operates entirely through individual candidate rankings rather than party labels. The Introduction to this series noted that party-centered proportional systems -- party-list PR, MMP, and MMM -- are the dominant global approach to proportional representation and are deferred to a future series. Proportional RCV represents the candidate-centered alternative: proportionality achieved through the transfer mechanism itself, conditional on voter behavior, and embedded in a counting process that is complex but has proven administrable across more than a century of continuous use.
 
 The next article introduces a different path to proportional representation -- one that requires neither ranked ballots nor party labels. Approval-based multi-winner methods achieve proportionality through the simplest possible ballot: approve or do not approve. The counting algorithms are recent, the formal properties are well-studied, and the design philosophy differs from Proportional RCV in ways that expand the design space further.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.4** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged
+
+**Revisions 1.0 through 1.3**
+- Development history prior to adoption of on-document revision tracking
+- Final pre-convention state: seven numbered sections plus evaluation comparison table and conclusion covering Droop proportionality, strategic incentives, monotonicity, candidate incentive structures, ballot complexity and voter error rates, transparency and auditability, and real-world performance evidence
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/pr-04-proportional-rcv-consequences.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
