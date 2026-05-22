@@ -161,3 +161,25 @@ Under bloc voting, a cohesive majority sweeps every seat by design. Under limite
 This raises a natural question. Limited voting creates space for minority representation by restricting the number of votes. What if, instead of restricting votes, the system allowed voters to concentrate them?
 
 The next article examines cumulative voting -- a method that preserves the number of votes but allows voters to distribute them freely, including giving all of them to a single candidate.
+
+---
+
+<!--
+## Revision History
+
+**Revision 1.1** (Current)
+- Added revision history footer per formatting convention
+- Article content unchanged from Revision 1.0
+
+**Revision 1.0**
+- Initial publication as part of the three-section site architecture transition
+- Four numbered sections plus conclusion covering limited voting mechanics, a worked example, vote management, and structural properties
+-->
+
+*Revision history available in the raw file.*
+
+> 📥 [Download this document](https://github.com/albertintech/voting-methods-explained/blob/main/src/mw-02-limited-voting.md) (opens on GitHub -- click the ⬇ download button)
+
+---
+
+*© 2026 Albert Ramos. All rights reserved.*
