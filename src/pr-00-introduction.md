@@ -1,4 +1,4 @@
-# Proportional Representation
+# Proportional Methods
 
 ## When Structure Guarantees What Strategy Cannot
 
