@@ -20,7 +20,7 @@
 - [Multi-Seat STAR](mw-05-multi-seat-star.md)
 - [Conclusion](mw-06-conclusion.md)
 
-# Proportional Representation
+# Proportional Methods
 
 - [Introduction](pr-00-introduction.md)
 - [Algorithms and Counting](pr-01-algorithms-and-counting.md)
