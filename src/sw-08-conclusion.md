@@ -243,7 +243,7 @@ This is a different problem than the single-winner question, but it builds on fa
 
 Some multi-winner methods produce fully majoritarian outcomes. Others create space for minority representation -- but only if voters and parties coordinate their behavior effectively. The structural insight is that adding seats does not automatically produce proportional outcomes.
 
-### Proportional Representation
+### Proportional Methods
 
 The second region addresses the limitation that multi-winner methods reveal. It asks:
 
