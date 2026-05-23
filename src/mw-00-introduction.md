@@ -200,7 +200,7 @@ The fifth method uses a more expressive ballot. **Multi-Seat STAR** applies the 
 
 These five methods form a spectrum. At one end, bloc voting gives a cohesive majority full control of every seat. At the other, SNTV creates conditions under which minority representation can emerge -- but only through effective coordination. Across all five, one pattern holds: proportionality, where it occurs, is a product of strategy, not structure.
 
-The Part concludes by synthesizing this spectrum and asking when the sweep effect is structurally appropriate -- and when it is not. That question sets the stage for the Proportional Representation Part, which examines methods that guarantee proportional outcomes through institutional design rather than relying on strategic behavior.
+The Part concludes by synthesizing this spectrum and asking when the sweep effect is structurally appropriate -- and when it is not. That question sets the stage for the Proportional Methods Part, which examines methods that guarantee proportional outcomes through institutional design rather than relying on strategic behavior.
 
 ---
 
