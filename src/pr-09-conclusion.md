@@ -90,15 +90,15 @@ The candidate-centered methods in this Part are structurally compatible with bot
 
 ---
 
-## The Simulation Evidence and Its Limits
+## Simulation Evidence in Context
 
-The previous article examined voting simulations in detail. The synthesis relevant to this Conclusion is brief.
+The previous article examined voting simulations as a tool for pre-deployment testing -- evaluating a counting method's structural properties under controlled conditions before it is deployed in a real election. The synthesis relevant to this Conclusion is brief.
 
 The proportional methods examined in this Part differ substantially in the depth of their empirical records. Proportional RCV has over a century of governmental use. Approval-based proportional methods exist primarily in academic literature. Score-based proportional methods have minimal operational experience. Proportional STAR has one organizational use and one federal legislative proposal.
 
-For methods with thin empirical records, simulation evidence fills the gap. Simulations can reveal comparative performance, sensitivity to strategic behavior, and frequency of edge cases. They cannot reveal how a method performs under the pressures of real governmental elections: administrative implementation, voter comprehension, partisan adaptation, and the political dynamics of adoption and durability.
+For methods with thin empirical records, simulations provide the pre-deployment evidence that allows evaluation before communities are asked to commit. For methods with long records -- Proportional RCV especially -- simulations serve a different function: they can separate the method's inherent structural behavior from the contextual factors that inevitably accompany any specific implementation. Monotonicity concerns that appear in both simulation and field data are structural. Ballot exhaustion patterns that appear in field data but not in simulation may be artifacts of ballot design, voter education, or candidate field size rather than the counting rule itself.
 
-The reader should calibrate their confidence in any proportional method to the type and depth of evidence available. Empirical evidence from decades of governmental use carries different weight than simulation evidence from synthetic electorates. Both are informative. Neither is sufficient alone. And the methods with the thinnest empirical records are, by structural necessity, the ones most dependent on the type of evidence that is most assumption-dependent.
+Simulations rest on assumptions, and those assumptions shape results. Empirical evidence carries the weight of real-world operation but bundles structural and contextual factors together. The reader should treat these as different kinds of evidence that answer different questions, not as points on a quality scale where one is inherently more trustworthy than the other.
 
 ---
 
@@ -164,7 +164,10 @@ Understanding them is not a matter of finding the right answer. It is a matter o
 <!--
 ## Revision History
 
-**Revision 1.4** (Current)
+**Revision 1.5** (Current)
+- Retitled "The Simulation Evidence and Its Limits" to "Simulation Evidence in Context"; rewrote section body to align with pr-08 reframe (simulations as pre-deployment testing, structural-vs-contextual separation, evidence types rather than evidence hierarchy)
+
+**Revision 1.4**
 - Added revision history footer per formatting convention
 - Article content unchanged from Revision 1.3
 
