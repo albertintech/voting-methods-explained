@@ -42,7 +42,7 @@ Each article builds on the previous one, moving from simple to complex voting sy
 22. **Binary Ballots, Proportional Outcomes** -- Approval-based proportional methods
 23. **Cardinal Proportionality** -- Score-based proportional methods
 24. **Quota-Based Cardinal Proportionality** -- Proportional STAR
-25. **Testing Systems Without Real Elections** -- Voting simulations as an evaluative tool
+25. **Voting Simulations** -- Testing voting systems before deploying them
 26. **Conclusion** -- Evaluating proportional systems
 
 ## Built With
