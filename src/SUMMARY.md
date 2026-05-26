@@ -30,5 +30,5 @@
 - [Binary Ballots, Proportional Outcomes](pr-05-proportional-approval.md)
 - [Cardinal Proportionality](pr-06-proportional-score.md)
 - [Quota-Based Cardinal Proportionality](pr-07-proportional-star.md)
-- [Testing Systems Without Real Elections](pr-08-voting-simulations.md)
+- [Voting Simulations](pr-08-voting-simulations.md)
 - [Conclusion](pr-09-conclusion.md)
