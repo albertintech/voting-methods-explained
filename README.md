@@ -32,7 +32,7 @@ Each article builds on the previous one, moving from simple to complex voting sy
 15. **Multi-Seat STAR** -- Consensus-oriented multi-winner selection
 16. **Conclusion** -- Strategy, not structure
 
-### Part 3: Proportional Representation
+### Part 3: Proportional Methods
 
 17. **Introduction** -- When structure guarantees what strategy cannot
 18. **Algorithms and Counting** -- The tools behind proportional systems
