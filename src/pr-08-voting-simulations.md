@@ -54,9 +54,7 @@ This analytical power is not limited to methods with thin records. It applies to
 
 > **Reflection Question: The Innovation Dilemma**
 >
-> If you were designing an evidence standard for evaluating voting methods -- not knowing in advance which method you would be asked to evaluate -- what would you require?
->
-> Would you hold a new method to a standard the current method could not meet? Would you accept a method's long track record as sufficient even if that record documented known structural failures? How much pre-deployment testing is enough -- and who decides?
+> If the voting method your community uses had to justify itself from scratch today -- no track record, no familiarity -- could it? How?
 
 ---
 
@@ -236,6 +234,8 @@ The series has now covered a progression of evaluative approaches: formal proper
 
 There is no perfect system -- only better or worse systems depending on what you are starting from and what you are optimizing for. Test what you can, as rigorously as you can, before the stakes become real. And when the stakes do become real, know what the testing told you and what it could not.
 
+The reader who asked *how* a voting method would justify itself from scratch now has the framework to answer: voter models, behavioral assumptions, multiple metrics, sensitivity analysis, and the critical questions that distinguish rigorous evaluation from selective evidence.
+
 The Conclusion that follows synthesizes the series by design dimension: proportionality, ballot complexity, auditability, candidate incentives, and the recurring theme that no system satisfies all criteria simultaneously. That synthesis draws on everything the reader has learned -- mechanics, properties, evidence, and the tools to assess evidence critically.
 
 ---
@@ -248,7 +248,7 @@ The Conclusion that follows synthesizes the series by design dimension: proporti
 - New subtitle: "Testing Voting Systems Before Deploying Them"
 - Rewrote Statement of Purpose with clinical-trial frame
 - Rewrote Section 1 as "Why Test Before You Deploy": added evidentiary catch-22, Collingridge Dilemma reference, structural-vs-contextual separation argument
-- Added Reflection Box ("The Innovation Dilemma") at end of Section 1
+- Added Reflection Box ("The Innovation Dilemma") at end of Section 1; callback in Conclusion closes the bracket
 - Added "Structural isolation" finding to Section 3
 - Retitled Section 4 from "What Simulations Cannot Tell Us" to "What Simulations Cannot Model"; repositioned limitations as scope boundaries of a pre-deployment tool; added closing paragraph on the simulation-to-deployment gap
 - Light reframe of Section 3 opening paragraph
