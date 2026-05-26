@@ -1,30 +1,62 @@
 # Voting Simulations
 
-## Testing Systems Without Real Elections
+## Testing Voting Systems Before Deploying Them
 
 ---
 
 ## Statement of Purpose
 
-The preceding articles in this series examined multi-winner voting methods by describing their mechanics, identifying their structural properties, and evaluating them against formal criteria: proportionality, monotonicity, ballot exhaustion, strategic incentives, and candidate incentive structures. Where real-world evidence was available -- Proportional RCV in Cambridge, bloc voting across American jurisdictions -- the articles drew on it. Where the operational record was thin -- Proportional Approval, Proportional Score, Proportional STAR -- the articles noted the gap.
+When a pharmaceutical company develops a new drug, it does not ship the drug to pharmacies and wait to see what happens. It tests the drug -- first in computational models, then in controlled laboratory conditions, then in clinical trials with increasing scope -- before any patient receives it. The logic is straightforward: deploying an untested intervention on a population is not a responsible way to gather evidence. You test what you can, as rigorously as you can, before the stakes become real.
 
-That gap is not an accident. Most of the proportional methods examined in this series have limited real-world track records. Some have been used only in organizational elections. Some exist primarily in academic literature. Some have been proposed for governmental adoption but have never been tested at scale.
+Voting systems have not historically followed this logic. Most of the world's voting methods -- including plurality, which governs most American elections -- were adopted without any pre-deployment testing. They were implemented, and their consequences became visible only after communities had already committed to them. This was not negligence; the tools for pre-deployment testing did not exist. Prior generations of electoral designers worked with formal theory and political judgment, not computational modeling. The methods in use today are, in an important sense, the survivors of uncontrolled experiments conducted on real electorates.
 
-This creates a practical problem for the reader. How should one evaluate a voting method that has little or no operational experience? The formal properties are identifiable -- a method either satisfies monotonicity or it does not, either satisfies later-no-harm or it does not. But formal properties alone do not tell the reader how a method performs across a range of realistic conditions: different electorate sizes, different numbers of candidates, different levels of strategic behavior, different distributions of voter preferences. For that, the evaluative tool is simulation.
+That has changed. Voting simulations now allow election scientists to test voting methods in controlled computational environments before those methods are deployed in real elections. A simulation defines a population of voters, generates their preferences, applies different counting rules to the same set of ballots, and compares the outcomes. It cannot replicate everything about a real election -- but it can isolate the structural properties of a counting method in ways that real elections, with all their confounding variables, cannot.
 
-This article introduces voting simulations as a method of evaluation. It explains what simulations are, what they can reveal, what they cannot, and how to read simulation evidence critically when it appears in reform advocacy, academic research, or policy debate. The goal is not to reproduce specific simulation results -- the reader can consult the original studies for that -- but to equip the reader with the understanding needed to assess whether a simulation's findings are meaningful, limited, or misleading.
+This article introduces voting simulations as a tool for evaluating voting methods. It explains what simulations are, why they represent a step forward in how we evaluate electoral systems, what they can reveal, what they cannot, and how to read simulation evidence critically when it appears in reform advocacy, academic research, or policy debate. The goal is not to reproduce specific simulation results -- the reader can consult the original studies for that -- but to equip the reader with the understanding needed to assess whether a simulation's findings are meaningful, limited, or misleading.
 
 ---
 
-## Section 1: Why Simulations Exist
+## Section 1: Why Test Before You Deploy
+
+### The Logic of Pre-Deployment Testing
 
 Elections are not experiments. A researcher studying the structural properties of Proportional STAR cannot run a controlled trial in which half of a state's congressional districts use Proportional STAR and the other half use Proportional RCV, with the same candidates, the same voters, and the same political conditions. Real elections happen once, with real stakes, real strategic behavior, and real consequences. There is no control group.
 
-This creates an asymmetry in the evidence base. Methods with long histories of governmental use -- plurality, Proportional RCV in Ireland and Australia, party-list PR across Europe -- can be evaluated against decades of empirical data: actual election outcomes, measurable patterns of representation, documented strategic behavior by voters and candidates. Methods that are newer, less widely adopted, or proposed but not yet implemented cannot be evaluated that way. The evidence from actual elections does not yet exist.
+This makes voting methods fundamentally different from most technologies. A bridge can be load-tested before it carries traffic. A drug can be trialed before it reaches patients. Software can be stress-tested before it ships. In each case, the testing environment is imperfect -- a load test does not capture every wind condition a bridge will face -- but it isolates the structural properties of the design under controlled conditions. The designer learns what the system does before the public depends on it.
 
-Simulations address this gap by creating a controlled environment in which voting methods can be tested against synthetic electorates. The researcher defines a population of voters, gives each voter a set of preferences over a set of candidates, applies different counting methods to the same set of ballots, and compares the outcomes. Because the simulation controls the inputs, it can isolate the effect of the counting method itself -- holding the electorate constant and varying only the rule used to determine winners.
+Voting simulations serve this function. They create controlled environments in which voting methods can be tested against synthetic electorates. The researcher defines a population of voters, gives each voter a set of preferences over a set of candidates, applies different counting methods to the same set of ballots, and compares the outcomes. Because the simulation controls the inputs, it can isolate the effect of the counting method itself -- holding the electorate constant and varying only the rule used to determine winners.
 
-This is the core value of simulation: comparative evaluation under controlled conditions. It does not replace empirical evidence from real elections. It supplements it, and for methods that lack empirical records, it may be the most systematic evidence available.
+This is the core value of simulation: comparative evaluation under controlled conditions. It does not replace empirical evidence from real elections. But it is not merely a substitute for empirical evidence either. It is a fundamentally different kind of evidence -- the kind that comes from testing a system's structural properties before deployment, rather than observing its behavior after the fact.
+
+### The Evidentiary Catch-22
+
+Alternative voting methods -- and from an American perspective, nearly anything outside of plurality qualifies as "alternative" -- face a double bind in public debate.
+
+A method without a long track record of governmental use is met with skepticism: *this method hasn't been proven in real elections.* The concern is legitimate. Operational experience reveals things that theory and simulation cannot: administrative complications, voter comprehension patterns, strategic behavior in real political environments. Without that experience, some uncertainty is irreducible.
+
+But a method that does have a long track record faces a different challenge: its record inevitably contains compromises, edge cases, and documented failures. Proportional RCV in Ireland and Australia has a century of operational data -- and that data includes ballot exhaustion, voter error, administrative complexity, and documented monotonicity concerns. These are real findings. They are also the inevitable consequences of deploying any system at scale over decades: no system operates without producing some evidence of limitation.
+
+The result is a double bind. A method without sufficient real-world data is rejected for insufficient evidence. A method with extensive real-world data is challenged because that data reveals compromises. The only method that escapes this trap entirely is the incumbent -- not because it lacks compromises, but because its compromises define the baseline against which everything else is measured. Plurality's structural consequences -- vote splitting, spoiler effects, manufactured majorities -- are well-documented throughout this series. But because plurality is the status quo, its failures are treated as the normal cost of doing business rather than as evidence against the system.
+
+This is a specific instance of a broader dilemma in innovation theory. The technology theorist David Collingridge identified it in 1980: early in a technology's development, when change is still easy, the consequences are difficult to predict because there is not enough real-world experience to reveal them. Later, once the technology is widely deployed and its consequences become visible, change is difficult because the technology has become entrenched -- economically, institutionally, culturally. The dilemma applies directly to voting systems: the methods we know the most about are the ones most resistant to change, and the methods that might represent improvements are the ones we know the least about.
+
+If every acceptable voting method needs a century of operational experience before it can be adopted, no new method can ever be adopted. But if a method is deployed without any evaluation at all, a community is asked to accept its consequences on faith. Simulations offer a way through this impasse. They allow a method to be evaluated on its structural properties before deployment -- shifting the conversation from "prove this works in the wild" to "here is what the model predicts, here are its assumptions, and here is where it is sensitive." That is a more productive conversation than either "not enough data" or "too much data showing problems."
+
+### The Second Layer: Separating Structure From Context
+
+There is another dimension to what simulations can do -- one that applies even to methods with long empirical records.
+
+When Proportional RCV produces ballot exhaustion in a real election, the empirical record documents the outcome but cannot cleanly determine its cause. Was the exhaustion a structural consequence of the method's elimination-and-transfer mechanics? Or was it an artifact of the specific election's context -- the ballot design, the number of candidates, the voter education effort, the political environment? The empirical record alone cannot separate these factors, because every real election bundles the counting method together with dozens of contextual variables.
+
+Simulations can make this separation. By testing a counting method against a synthetic electorate with no ballot design failures, no voter education gaps, and no contextual noise, a simulation isolates the method's structural behavior. If ballot exhaustion appears in simulation under honest voters with complete rankings, that is a structural property of the method. If it does not appear in simulation but appears consistently in real elections, the cause is likely contextual -- and the appropriate response is to address the context (ballot design, voter education) rather than to reject the method.
+
+This analytical power is not limited to methods with thin records. It applies to well-established methods as well. Proportional RCV's century of operational data is a tremendous asset, but it is an asset that bundles structural and contextual factors together. Simulations are what allow election scientists to pull those factors apart.
+
+> **Reflection Question: The Innovation Dilemma**
+>
+> If you were designing an evidence standard for evaluating voting methods -- not knowing in advance which method you would be asked to evaluate -- what would you require?
+>
+> Would you hold a new method to a standard the current method could not meet? Would you accept a method's long track record as sufficient even if that record documented known structural failures? How much pre-deployment testing is enough -- and who decides?
 
 ---
 
@@ -72,7 +104,7 @@ The simulation applies multiple counting methods to the same set of ballots and 
 
 ## Section 3: What Simulations Can Reveal
 
-Simulations are most informative when they are used comparatively -- testing multiple methods against the same electorate under the same conditions. This holds constant the factors that real elections cannot control (who the voters are, what they prefer, how many candidates run) and isolates the variable of interest: the counting method.
+Simulations are most informative when they are used comparatively -- testing multiple methods against the same electorate under the same conditions. This holds constant the factors that real elections cannot control (who the voters are, what they prefer, how many candidates run) and isolates the variable of interest: the counting method. This is the controlled-environment advantage that makes simulations a form of pre-deployment testing rather than a substitute for field data.
 
 Several kinds of findings emerge from well-designed comparative simulations.
 
@@ -84,23 +116,27 @@ Several kinds of findings emerge from well-designed comparative simulations.
 
 **Interaction effects.** Some structural properties interact in ways that are difficult to predict from theory alone. For example, the interaction between strategic exaggeration and reweighting under RRV produces a partial self-correction effect that the formal properties do not fully capture. Simulations can quantify these interaction effects by observing how methods behave when multiple factors vary simultaneously.
 
+**Structural isolation.** As discussed in Section 1, simulations can separate a method's inherent structural behavior from the contextual factors that inevitably accompany real-world deployment. This is not merely useful for untested methods -- it provides analytical clarity for well-established methods as well, distinguishing between consequences that are built into the counting rule and consequences that arise from how the rule interacts with a particular implementation environment.
+
 ---
 
-## Section 4: What Simulations Cannot Tell Us
+## Section 4: What Simulations Cannot Model
 
-Simulations are powerful tools, but they have structural limitations that no amount of computational power can overcome.
+Simulations are powerful tools, but they have structural limitations that no amount of computational power can overcome. Recognizing these boundaries is part of using simulations responsibly -- not a reason to dismiss them, but a reason to understand what they are and are not designed to do.
 
 **Real strategic behavior.** Simulations model strategic voters by assuming a specific decision procedure: the voter observes polling information, calculates expected outcomes under different ballot choices, and selects the ballot that maximizes expected utility. Real voters do not perform this calculation. They rely on heuristics, partial information, social pressure, identity, habit, and emotion. The gap between modeled strategic behavior and actual strategic behavior is substantial and largely unmeasured.
 
 This does not mean strategic behavior is irrelevant. The previous series established that strategic incentives are structural pressures created by the voting system's design. But simulations model the pressure at full rationality, which overstates the degree to which real voters respond to it. A simulation that shows significant performance degradation under strategic voting is identifying a real vulnerability -- but the severity in practice will likely be lower than the simulation suggests.
 
-**Implementation and administration.** Simulations evaluate counting methods in a frictionless environment: every ballot is correctly filled out, every ballot is counted, every algorithm is executed perfectly. Real elections involve ballot design, voter education, tabulation equipment, poll worker training, legal challenges, recounts, and public trust. A method that performs beautifully in simulation may face practical obstacles that have nothing to do with its mathematical properties.
+**Implementation and administration.** Simulations evaluate counting methods in a frictionless environment: every ballot is correctly filled out, every ballot is counted, every algorithm is executed perfectly. Real elections involve ballot design, voter education, tabulation equipment, poll worker training, legal challenges, recounts, and public trust. These components do not merely surround the counting method -- they interact with it in ways that produce emergent complications neither the method's formal properties nor its simulation performance can anticipate. A ballot design that confuses voters under one counting method may work perfectly under another. A tabulation process that scales easily for one method may create bottlenecks for another. These interactions are specific to the institutional configuration in which the method is deployed, and that configuration cannot be simulated.
 
 The series has already encountered this gap. Proportional RCV in Ireland is hand-counted, a process that works because of institutional tradition but would not scale easily to larger electorates. Proportional STAR requires centralized tabulation of individual ballot records, a logistical requirement that some election administrators may resist regardless of the method's proportionality properties.
 
 **Voter comprehension and legitimacy.** Simulations cannot measure whether voters understand what the system is doing or whether they trust its outcomes. A method that produces optimal results by a mathematical standard may face political resistance if voters cannot follow the counting process. The previous series documented this concern for RCV, where the elimination-and-transfer process is sometimes perceived as opaque. Proportional methods with reweighting or allocation steps face similar comprehension challenges that simulations do not capture.
 
 **The social and political environment.** Voting systems exist within political cultures, party systems, media environments, and legal frameworks. A method that works well in a nonpartisan city council election may behave differently in a highly partisan congressional election with national media attention and sophisticated campaign operations. Simulations can model the preferences of voters and candidates but cannot model the institutional context in which the election takes place.
+
+The gap between simulation and deployment is real and irreducible. It is the same gap that exists between a clinical trial and a drug's performance in the general population, between a load test and a bridge's performance over decades of use. The gap does not invalidate the testing -- it defines the boundary between what pre-deployment evaluation can tell you and what only operational experience can reveal. Responsible use of simulations means knowing where that boundary falls.
 
 ---
 
@@ -186,41 +222,41 @@ These frameworks are not interchangeable. Each measures a different dimension of
 
 ---
 
-## Section 8: Simulations and the Multi-Winner Evidence Gap
-
-The multi-winner methods examined in this series fall across a wide spectrum of empirical evidence.
-
-At one end, Proportional RCV has been used in governmental elections for over a century. Ireland, Australia, Scotland, Cambridge, and Portland provide decades of operational data: real outcomes, real strategic behavior, real administrative experience, and real voter comprehension patterns. Evaluating Proportional RCV does not depend primarily on simulation -- there is enough empirical evidence to draw on.
-
-At the other end, approval-based proportional methods (PAV, SPAV, MES) have almost no operational track record. The Method of Equal Shares has been used in a handful of European participatory budgeting processes. PAV and SPAV have not been used in any election. For these methods, simulation evidence and formal axiomatic analysis are the primary evaluative tools.
-
-Score-based proportional methods occupy a middle position. RRV has been used in non-governmental contexts (the Academy Awards, Berkeley's referral prioritization). Proportional STAR has been used in one organizational election (DSA-LA) and proposed for federal congressional elections (CEMA). The operational evidence is thin but not absent.
-
-Simulations become more important as the operational evidence becomes thinner. For Proportional RCV, simulations supplement a rich empirical record. For Proportional STAR, simulations are a primary source of comparative evidence. For PAV, simulations are nearly the only source.
-
-This creates an asymmetry that the reader should recognize: the methods with the least empirical evidence are the ones most dependent on simulation evidence, and simulation evidence is inherently more assumption-dependent than empirical observation. This does not mean the less-tested methods are worse. It means the reader should hold the evidence for each method to the standard appropriate to its type: empirical evidence is evaluated by its representativeness and sample size; simulation evidence is evaluated by its modeling assumptions and sensitivity.
-
----
-
 ## Conclusion
 
-This article introduced voting simulations as an evaluative tool for multi-winner voting methods. Simulations create controlled environments in which voting methods can be tested comparatively against synthetic electorates, revealing relative performance, sensitivity to strategic behavior, frequency of edge cases, and interaction effects that formal analysis alone cannot capture.
+This article introduced voting simulations as a tool for evaluating voting methods -- not as a workaround for missing data, but as the responsible step of testing a system's structural properties before deploying it on a real electorate.
+
+The distinction matters. Prior generations of electoral reformers adopted voting methods without pre-deployment testing, because the tools did not exist. Simulations change that calculus. They allow election scientists to evaluate how a counting method performs across a range of conditions -- different electorates, different levels of strategic behavior, different numbers of candidates and seats -- before any community is asked to trust its outcomes. For methods with thin empirical records, simulations may be the most systematic evidence available. For methods with long records, simulations can separate structural behavior from contextual artifacts in ways the empirical record alone cannot.
 
 Simulations rest on assumptions -- about voter models, behavioral models, the number of candidates and seats, and the metrics used to evaluate outcomes. The most consequential assumption is the voter model: different models produce different preference structures, and those structures can favor or disfavor particular methods. The most informative simulations report results across multiple models and behavioral assumptions, demonstrate stability through sensitivity analysis, and present multiple metrics rather than selecting the one most favorable to a particular method.
 
-Simulations cannot model real strategic behavior, administrative implementation, voter comprehension, or the social and political environment in which elections take place. They evaluate counting methods in an idealized environment. The gap between simulation and reality is real and irreducible. A method that performs well in simulation may face practical obstacles that simulation cannot anticipate. A method that performs poorly in simulation under one voter model may perform differently under another.
+Simulations cannot model real strategic behavior, administrative implementation, voter comprehension, or the social and political environment in which elections take place. They evaluate counting methods in a controlled environment. The gap between simulation and deployment is real and irreducible -- the same gap that exists between any pre-deployment test and real-world operation. Responsible use of simulations means knowing where that boundary falls, not pretending the boundary does not exist.
 
-The series has now covered a progression of evaluative approaches: formal properties (monotonicity, proportionality axioms, later-no-harm), worked examples (demonstrating mechanics and outcomes in specific scenarios), empirical evidence (where available), and simulations (filling the gap where empirical evidence is thin). Each approach captures something the others miss. None is sufficient alone.
+The series has now covered a progression of evaluative approaches: formal properties (monotonicity, proportionality axioms, later-no-harm), worked examples (demonstrating mechanics and outcomes in specific scenarios), empirical evidence (where available), and simulations (testing structural properties under controlled conditions). Each approach captures something the others miss. None is sufficient alone. Together, they equip the reader to evaluate any voting method -- not just the specific methods examined in this series, but any system that might appear in a ballot measure, a legislative proposal, or a reform advocacy campaign.
 
-The reader is now equipped to evaluate any multi-winner voting method they encounter -- not just the specific methods examined in this series, but any system that might appear in a ballot measure, a legislative proposal, or a reform advocacy campaign. The Conclusion that follows synthesizes the series by design dimension: proportionality, ballot complexity, auditability, candidate incentives, and the recurring theme that no system satisfies all criteria simultaneously. That synthesis draws on everything the reader has learned -- mechanics, properties, evidence, and the tools to assess evidence critically.
+There is no perfect system -- only better or worse systems depending on what you are starting from and what you are optimizing for. Test what you can, as rigorously as you can, before the stakes become real. And when the stakes do become real, know what the testing told you and what it could not.
 
+The Conclusion that follows synthesizes the series by design dimension: proportionality, ballot complexity, auditability, candidate incentives, and the recurring theme that no system satisfies all criteria simultaneously. That synthesis draws on everything the reader has learned -- mechanics, properties, evidence, and the tools to assess evidence critically.
 
 ---
 
 <!--
 ## Revision History
 
-**Revision 1.4** (Current)
+**Revision 1.5** (Current)
+- Structural reframe: repositioned simulations as pre-deployment testing rather than a workaround for thin empirical data
+- New subtitle: "Testing Voting Systems Before Deploying Them"
+- Rewrote Statement of Purpose with clinical-trial frame
+- Rewrote Section 1 as "Why Test Before You Deploy": added evidentiary catch-22, Collingridge Dilemma reference, structural-vs-contextual separation argument
+- Added Reflection Box ("The Innovation Dilemma") at end of Section 1
+- Added "Structural isolation" finding to Section 3
+- Retitled Section 4 from "What Simulations Cannot Tell Us" to "What Simulations Cannot Model"; repositioned limitations as scope boundaries of a pre-deployment tool; added closing paragraph on the simulation-to-deployment gap
+- Light reframe of Section 3 opening paragraph
+- Eliminated standalone Section 8 ("Simulations and the Multi-Winner Evidence Gap"); evidence-spectrum content redistributed to Section 1 and Conclusion
+- Rewrote Conclusion to land the pre-deployment testing frame
+- Sections 2, 5, 6, 7 content unchanged
+
+**Revision 1.4**
 - Added revision history footer per formatting convention
 - Article content unchanged
 
