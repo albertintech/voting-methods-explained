@@ -1,4 +1,4 @@
-# Proportional Methods
+# Proportional Representation
 
 ## When Structure Guarantees What Strategy Cannot
 
@@ -78,13 +78,13 @@ Each system article opens with where the method is currently used or has been fo
 
 ---
 
-## Evaluating Systems With Thin Records
+## Testing Systems Before Deployment
 
-Most proportional systems examined in this Part have limited real-world track records -- particularly the approval-based, score-based, and STAR-based families. Proportional RCV has decades of empirical evidence from Cambridge, Ireland, and Australia. The cardinal-ballot families have been adopted in organizational contexts but have little data from governmental elections.
+Most voting methods in widespread use today -- including plurality, which governs most American elections -- were adopted without pre-deployment testing. They were implemented, and their consequences became visible only after communities had already committed to them. The tools for testing voting methods before deployment did not yet exist.
 
-This creates an evaluative challenge. How should a reader assess a system that has strong theoretical properties but thin empirical evidence?
+Those tools now exist. Voting simulations allow election scientists to test how counting methods perform across a range of conditions -- different electorates, different levels of strategic behavior, different numbers of candidates and seats -- before any community is asked to trust the outcome. For methods with limited operational records, simulations may be the most systematic evidence available. For methods with long records, simulations can separate structural behavior from the contextual factors that inevitably accompany real-world use.
 
-The Part addresses this challenge with a dedicated article on **voting simulations** -- computational models that test voting systems under controlled conditions. Simulations allow analysts to evaluate systems whose real-world performance data is insufficient for confident empirical claims. But simulations also involve simplifying assumptions, and those assumptions shape the results. The article equips the reader to evaluate simulation evidence critically: to understand what simulations can reveal, what they cannot, and what questions to ask about any simulation result.
+The Part addresses this with a dedicated article on **voting simulations**. Simulations are powerful tools, but they rest on assumptions -- about voter models, behavioral models, and metrics -- and those assumptions shape the results. The article equips the reader to evaluate simulation evidence critically: to understand what simulations can reveal, what they cannot model, and what questions to ask about any simulation result.
 
 ---
 
@@ -95,7 +95,7 @@ The sequence follows the logic outlined above:
 1. This Introduction establishes the design space and previews the structure.
 2. Two Foundation articles build the prerequisite tools: algorithms and counting, then quotas, surplus handling, and ballot reweighting.
 3. Four system families follow in order of ballot complexity: ranked, approval, score, then score with automatic runoff. Each system article covers mechanics, worked examples, structural consequences, and tradeoffs. Proportional RCV receives two articles (mechanics and consequences) due to the complexity of its counting process and the depth of its empirical record.
-4. A Voting Simulations article equips the reader to evaluate systems with limited empirical data.
+4. A Voting Simulations article introduces pre-deployment testing and equips the reader to evaluate simulation evidence critically.
 5. A Conclusion synthesizes across design dimensions rather than by system, providing a comparative framework.
 
 ---
@@ -121,7 +121,11 @@ It is how -- and at what cost.
 <!--
 ## Revision History
 
-**Revision 1.4** (Current)
+**Revision 1.5** (Current)
+- Retitled "Evaluating Systems With Thin Records" section to "Testing Systems Before Deployment"; rewrote section body to align with pr-08 reframe (simulations as pre-deployment testing rather than workaround for thin data)
+- Updated Part organization list item 4 to match new simulations framing
+
+**Revision 1.4**
 - Added revision history footer per formatting convention
 - Article content unchanged from Revision 1.3
 
