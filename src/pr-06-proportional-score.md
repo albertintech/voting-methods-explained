@@ -283,7 +283,10 @@ The next article examines Proportional STAR, which uses a counting algorithm cal
 <!--
 ## Revision History
 
-**Revision 1.4** (Current)
+**Revision 1.5** (Current)
+- Series-wide revision alignment with pr-08 reframe; article content unchanged from Revision 1.4
+
+**Revision 1.4**
 - Added revision history footer per formatting convention
 - Article content unchanged
 
