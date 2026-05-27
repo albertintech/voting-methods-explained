@@ -141,7 +141,10 @@ The reader does not yet need to know the specific adjustment rules of any partic
 <!--
 ## Revision History
 
-**Revision 1.4** (Current)
+**Revision 1.5** (Current)
+- Series-wide revision alignment with pr-08 reframe; article content unchanged from Revision 1.4
+
+**Revision 1.4**
 - Added revision history footer per formatting convention
 - Article content unchanged
 
