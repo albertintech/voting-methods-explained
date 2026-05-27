@@ -214,7 +214,10 @@ Together with the algorithmic framework from Foundation A, these tools form the 
 <!--
 ## Revision History
 
-**Revision 1.4** (Current)
+**Revision 1.5** (Current)
+- Series-wide revision alignment with pr-08 reframe; article content unchanged from Revision 1.4
+
+**Revision 1.4**
 - Added revision history footer per formatting convention
 - Article content unchanged
 
