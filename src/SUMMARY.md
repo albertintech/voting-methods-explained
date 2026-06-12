@@ -10,7 +10,7 @@
 - [Condorcet as Benchmark](sw-07-condorcet-as-benchmark.md)
 - [Conclusion](sw-08-conclusion.md)
 
-# Multi-Winner Methods
+# Multi-Winner Methods: Majoritarian Outcomes
 
 - [Introduction](mw-00-introduction.md)
 - [Bloc Voting](mw-01-bloc-voting.md)
@@ -20,7 +20,7 @@
 - [Multi-Seat STAR](mw-05-multi-seat-star.md)
 - [Conclusion](mw-06-conclusion.md)
 
-# Proportional Methods
+# Multi-Winner Methods: Proportional Outcomes
 
 - [Introduction](pr-00-introduction.md)
 - [Algorithms and Counting](pr-01-algorithms-and-counting.md)
