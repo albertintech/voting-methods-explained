@@ -22,7 +22,7 @@ Each article builds on the previous one, moving from simple to complex voting sy
 8. **Condorcet as Benchmark** -- A standard for evaluating voting systems
 9. **Conclusion** -- From single-winner to multi-winner systems
 
-### Part 2: Multi-Winner Methods
+### Part 2: Multi-Winner Methods: Majoritarian Outcomes
 
 10. **Introduction** -- When more than one candidate wins
 11. **Bloc Voting** -- The most common multi-winner method and the sweep effect
@@ -32,7 +32,7 @@ Each article builds on the previous one, moving from simple to complex voting sy
 15. **Multi-Seat STAR** -- Consensus-oriented multi-winner selection
 16. **Conclusion** -- Strategy, not structure
 
-### Part 3: Proportional Methods
+### Part 3: Multi-Winner Methods: Proportional Outcomes
 
 17. **Introduction** -- When structure guarantees what strategy cannot
 18. **Algorithms and Counting** -- The tools behind proportional systems
