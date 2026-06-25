@@ -142,12 +142,12 @@ Throughout this series, we encountered several criteria by name or by demonstrat
 
 #### Criteria Encountered in This Series
 
-| Criterion | What It Asks | Where We Saw It |
-|---|---|---|
-| **Majority** | If a candidate is the first choice of more than half the voters, must that candidate win? | Part I (Plurality does not require majority), Part IIb (RCV guarantees majority of active ballots) |
-| **Condorcet** | If a candidate would defeat every other candidate one-on-one, must that candidate win? | Part VI (introduced as a benchmark; no system covered guarantees it) |
-| **Monotonicity** | Can gaining additional voter support ever cause a candidate to lose? | Part IIb (demonstrated that RCV can violate this in closely contested races) |
-| **Later-no-harm** | Can ranking a backup candidate ever cause your first choice to lose? | Part IIa-IIb (implicit in the locked ballot model; RCV satisfies this, but Approval and Score do not -- approving or scoring a second candidate can hurt your favorite) |
+| Criterion | What It Asks | Demonstrated With | Article Discussed |
+|---|---|---|---|
+| **Majority** | If a candidate is the first choice of more than half the voters, must that candidate win? | All methods | [Plurality Voting](sw-01-plurality-voting.md), [RCV: Structural Consequences](sw-03-ranked-choice-voting-consequences.md) |
+| **Condorcet** | If a candidate would defeat every other candidate one-on-one, must that candidate win? | Any method with three or more candidates | [Condorcet as Benchmark](sw-07-condorcet-as-benchmark.md) |
+| **Monotonicity** | Can gaining voter support on a ranked ballot ever cause a candidate to lose? | Ranked methods | [RCV: Structural Consequences](sw-03-ranked-choice-voting-consequences.md) |
+| **Later-no-harm** | In a ranked system, can ranking a backup candidate ever cause your first choice to lose? | Ranked methods | [RCV: How It Works](sw-02-ranked-choice-voting-mechanics.md), [RCV: Structural Consequences](sw-03-ranked-choice-voting-consequences.md) |
 
 These four criteria appeared because they were directly relevant to the structural consequences we examined. But they are not the only criteria that voting theorists use.
 
@@ -155,14 +155,14 @@ These four criteria appeared because they were directly relevant to the structur
 
 The following criteria are well-established in voting theory but were outside the scope of a 101 introduction. They are listed here as a roadmap for further exploration.
 
-| Criterion | What It Asks |
-|---|---|
-| **Independence of Irrelevant Alternatives (IIA)** | Does adding or removing a non-winning candidate ever change who wins? (Closely related to the spoiler effect discussed in Part I.) |
-| **Participation** | Can a voter ever cause a worse outcome by showing up to vote than by staying home? |
-| **Consistency** | If two separate groups of voters would each independently elect the same candidate, does combining them still elect that candidate? |
-| **Clone Independence** | Does adding a nearly identical candidate ever change the outcome? (Related to vote splitting, but defined more precisely.) |
-| **Later-no-help** | Can ranking a backup candidate ever help your first choice? (The counterpart to later-no-harm.) |
-| **Reversal Symmetry** | If a system selects a winner, and every voter reverses their entire ranking, must that original winner now finish last? |
+| Criterion | What It Asks | Notes |
+|---|---|---|
+| **Independence of Irrelevant Alternatives (IIA)** | Does adding or removing a non-winning candidate ever change who wins? | Closely related to the spoiler effect discussed in [Plurality Voting](sw-01-plurality-voting.md). |
+| **Participation** | Can a voter ever cause a worse outcome by showing up to vote than by staying home? | Also called the no-show paradox; ranked elimination methods can violate it. |
+| **Consistency** | If two separate groups of voters would each independently elect the same candidate, does combining them still elect that candidate? | — |
+| **Clone Independence** | Does adding a nearly identical candidate ever change the outcome? | Related to vote splitting, but defined more precisely. |
+| **Later-no-help** | Can ranking a backup candidate ever help your first choice? | The counterpart to later-no-harm. |
+| **Reversal Symmetry** | If a system selects a winner, and every voter reverses their entire ranking, must that original winner now finish last? | — |
 
 No system satisfies all criteria simultaneously -- as Arrow's theorem confirms. But knowing which criteria a system satisfies, and which it sacrifices, is the foundation of informed evaluation.
 
@@ -243,7 +243,7 @@ This is a different problem than the single-winner question, but it builds on fa
 
 Some multi-winner methods produce fully majoritarian outcomes. Others create space for minority representation -- but only if voters and parties coordinate their behavior effectively. The structural insight is that adding seats does not automatically produce proportional outcomes.
 
-### Proportional Methods
+### Proportional Representation
 
 The second region addresses the limitation that multi-winner methods reveal. It asks:
 
@@ -333,7 +333,14 @@ They reconfigure them -- and introduce new ones.
 <!--
 ## Revision History
 
-**Revision 1.7** (Current)
+**Revision 1.7-a** (Current)
+- Reframed the later-no-harm criterion entry per ref-criterion-domain-applicability-1-0: removed the cross-domain pass/fail verdict on Approval and Score; tied the criterion to ranked systems in its "What It Asks" cell
+- Tied monotonicity explicitly to ranked ballots in its "What It Asks" cell
+- Restructured "Criteria Encountered in This Series" table: replaced the "Where We Saw It" column with separate "Demonstrated With" and "Article Discussed" columns; "Article Discussed" entries are now hyperlinks to the published articles
+- Replaced retired internal Part references (Part I, IIa, IIb, VI) with article-title hyperlinks throughout both tables
+- Restructured "Criteria Beyond This Series" table: moved parenthetical asides into a dedicated "Notes" column; intentionally empty Notes cells marked with an em dash; folded the stale "Part I" spoiler reference into a Plurality Voting hyperlink
+
+**Revision 1.7**
 - Added revision history footer per formatting convention
 - Article content unchanged from Revision 1.6
 
